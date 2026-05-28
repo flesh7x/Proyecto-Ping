@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilidad de Red</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Utilidad de Red</h1>
+        <div class="input-group">
+            <input type="text" id="ip-input" placeholder="Ingresa una dirección IP" value="8.8.8.8">
+            <span id="validation-status"></span>
+        </div>
+        <div class="button-group">
+            <button id="ping-btn">Ping</button>
+            <button id="traceroute-btn">Traceroute</button>
+        </div>
+        <pre id="output">El resultado de los comandos aparecerá aquí.</pre>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
